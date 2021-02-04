@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		h2
+		{
+			color:red;
+			font-size: 16px;
+			text-align: left
+		}
+		label textarea {
+        vertical-align: top;
+    }
+
+
+	</style>
+
+
+</head>
+<body>
+
+	<label id="C1">Donor Information></label> <label id="C2">Confirmation> </label> <label id="C3">Thank you!</label>
+
+
+   <form action="action.html" method="get">
+  <label for="fname"><b>First name:</b><span style="color:red;font-weight:bold">*</span></label>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname"><b>Last name:</b><span style="color:red;font-weight:bold">*</span></label>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="company"><b>Company:</b></label>
+  <input type="text" id="company" name="company"><br>
+  <label for="address1"><b>Address 1:</b><span style="color:red;font-weight:bold">*</span></label>
+  <input type="text" id="address1" name="address1"><br>
+  <label for="address2"><b>Address 2:</b></label>
+  <input type="text" id="address2" name="address2"><br>
+  <label for="city"><b>City:</b><span style="color:red;font-weight:bold">*</span></label>
+  <input type="text" id="city" name="city"><br>
+  <label for="state"><b>State:</b></label>
+  <select id="state" name="state">
+    <option value="ctg">Chittagong</option>
+    <option value="dhk">Dhaka</option>
+    <option value="mum">Mumbai</option>
+    <option value="del">Delhi</option>
+   </select><br>
+  <label for="zipcode"><b>Zipcode:</b><span style="color:red;font-weight:bold">*</span></label>
+  <input type="text" id="zipcode" name="zipcode"><br>
+   <label for="country"><b>Country:</b></label>
+  <select id="country" name="country">
+    <option value="bang">Bangladesh</option>
+    <option value="ind">India</option>
+   </select><br>
+  <label for="phn"><b>Phone:</b></label>
+  <input type="text" id="phn" name="phn"><br>
+  <label for="fax"><b>Fax:</b></label>
+  <input type="text" id="fax" name="fax"><br>
+  <label for="email"><b>Email:</b><span style="color:red;font-weight:bold">*</span></label>
+  <input type="text" id="email" name="email"><br>
+  <label for="dm"><b>Donation Amount:</b><span style="color:red;font-weight:bold">*</span></label>
+  <input type="radio" id="dm" name="dm" value="$50">
+  <label for="dm">$50</label>
+  <input type="radio" id="dm" name="dm" value="$100">
+  <label for="dm">$100</label>
+  <input type="radio" id="dm" name="dm" value="none">
+  <label for="none">None</label><br>
+  <label for="om"><b>Other Amount:</b></label>
+  <input type="text" id="om" name="om"><br>
+  <label for="rd"><b>Recurring Donation</b></label>
+  <input type="checkbox" id="rd" name="rd" value="Donation">
+  <label for="cbt">I am interested in giving on a regular basis</label>
+  <br>
+  <h2>Honorarium and Memorial Donation Information</h2>
+  <label for="wd"><b>I would like to make this donation:</b></label>
+  <input type="radio" id="wd" name="wd" value="In honour of">
+  <label for="dm">In honour of</label>
+  <input type="radio" id="wd" name="wd" value="In memory of">
+  <label for="dm">In memory of</label>
+  <br>
+  <label for="dname"><b>Name:</b></label>
+  <input type="text" id="dname" name="dname"><br>
+  <label for="add"><b>Address:</b></label>
+  <input type="text" id="add" name="add"><br>
+  <label for="st"><b>State:</b></label>
+  <select id="st" name="st">
+    <option value="ctg">Chittagong</option>
+    <option value="dhk">Dhaka</option>
+    <option value="mum">Mumbai</option>
+    <option value="del">Delhi</option>
+   </select><br>
+   <label for="zip"><b>Zip:</b></label>
+  <input type="text" id="zip" name="zip"><br>
+  <h2>Additional Information</h2>
+  <label for="comp"><b>Company Name:</b></label>
+  <input type="text" id="comp" name="comp"><br>
+  <label><b>Comments:</b><textarea name="cmm" rows="10" cols="30"></textarea></label>
+  <br>
+  <br>
+   <p><a href="#C2">Continue</a></p>
+   <input type="reset">
+  
+
+  
+
+  
+
+
+</form>
+
+
+</body>
+</html>
